@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
     [Header("Player Variables")]
     [SerializeField] private CharacterController _characterController;
@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Jump Variables")]
     [SerializeField] private float _jumpForce;
-
 
     private Vector3 _move;
     private Vector3 _velocity;
@@ -31,12 +30,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void Movement()
-    {       
+    {
         _horizontalMove = Input.GetAxis("Horizontal");
         _verticalMove = Input.GetAxis("Vertical");
 
         _move = transform.right * _horizontalMove + transform.forward * _verticalMove;
-        _characterController.Move(_move * _speed * Time.deltaTime);        
+        _characterController.Move(_move * _speed * Time.deltaTime);
     }
 
     public void Gravity()
