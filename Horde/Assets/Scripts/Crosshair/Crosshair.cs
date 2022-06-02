@@ -28,19 +28,15 @@ public class Crosshair : MonoBehaviour
     [Header("Position")]
     [SerializeField] private float _positionImages;
 
-    void Start()
-    {
-        SetCrosshairColor();
-    }
-
     void Update()
     {
+        //Temporary
+        SetCrosshairColor();
         SetCrosshairTransparency();
         SetCrosshairSize();
         SetCrosshairScale();
         SetCrosshairPosition();
     }
-
     public void SetCrosshairColor()
     {
         for (int i = 0; i < _images.Length; i++)

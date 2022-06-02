@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c747bcc2810ae40b1e67939afa673d, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9094281785886879271, guid: 5827ef889e81582429d0280fb89b9d14, type: 3}
+  weaponName: Pistol
+  price: 100
+  damage: 10
+  maxDistance: 10
+  fireRate: 5
+  currentAmmo: 0
+  Ammo: 20
+  magazineSize: 10
+  reloadTime: 1
+  isReloading: 0

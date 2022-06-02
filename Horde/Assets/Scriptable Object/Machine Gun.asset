@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c747bcc2810ae40b1e67939afa673d, type: 3}
+  m_Name: Machine Gun
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 904609766459188897, guid: 2c178e148b8f0854dbd021c26b7ea540, type: 3}
+  weaponName: Machine Gun
+  price: 200
+  damage: 20
+  maxDistance: 20
+  fireRate: 10
+  currentAmmo: 0
+  Ammo: 60
+  magazineSize: 30
+  reloadTime: 2
+  isReloading: 0
